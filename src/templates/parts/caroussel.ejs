@@ -1,0 +1,27 @@
+<div id="caroussel" class="container-fluid bg-success align-items-center">
+    <div class="row d-flex w-100">
+        <%- include('components/card', {
+            title: "Make my likes public", 
+            text:"Make your likes into an playlist that you can share and add colaborators to it", 
+            link: "/api/create/likes_playlist"
+        }); %>
+
+        <%- include('components/card', {
+            title: "Popularity check", 
+            text:"Check the popularity of my likes and describe me with it", 
+            link: "/api/popularity"
+        }); %>
+
+        <%- include('components/card', {
+            title: "Recommandations", 
+            text:"Create your own recommandations playlist with multiple options", 
+            link: "/recommandations"
+        }); %>
+
+        <%- include('components/card', {
+            title: "Popularity check", 
+            text:"Check the popularity of my likes and describe me with it", 
+            link: "/api/popularity"
+        }); %>
+    </div>
+</div>

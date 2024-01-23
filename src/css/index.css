@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Spotify-Bold'; 
+    src: url('../font/GothamBold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Spotify-Bold';
+}
+
+.header {
+    background-color: #191414;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: #1DB954;
+}
+
+#caroussel, #bg-reco-options {
+    height: 50rem;
+    display: flex;
+    width: 100%;
+}
+
+.info-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #483285;
+    color: #fff;
+}
+
+.info-footer button {
+    color: #000;
+}
+
+.info-footer button:hover {
+    color: #000;
+}
+
+.footer {
+    background-color: #191414;
+    color:#fff;
+}
