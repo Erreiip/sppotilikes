@@ -2,13 +2,20 @@ function adjustContainerHeight() {
     const container = $("#caroussel");
     const cards = container.find(".card");
 
+    let maxSize = 0;
     cards.each(function () {
         let face = $(this).find(".face");
         let rowHeight = Math.max(...face.map(function () {
             return $(this).outerHeight();
         }).get());
-        rowHeight += 10;
-        $(this).css("height", rowHeight + "px");
+        rowHeight += 40;
+        if (rowHeight > maxSize) {
+            maxSize = rowHeight;
+        }
+    });
+
+    cards.each(function () {
+        $(this).css("height", maxSize + "px");
     });
   }
 

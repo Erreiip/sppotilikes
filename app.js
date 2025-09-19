@@ -18,7 +18,6 @@ const defined_path = [
 
 const reApi = /api\/.*/
 
-
 // middleware 
 const requireAuth = (req, res, next) => {
     if (req.session && req.session.accessToken) {

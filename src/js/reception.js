@@ -4,7 +4,7 @@ function isMobileDevice() {
 }
 
 const displayPlaylists = (playlists) => {
-    let html = `<h2>Playlists</h2>`;
+    let html = "";
 
     html += `<div id='playlists'>`;
 
@@ -28,7 +28,7 @@ const displayPlaylist = (playlist) => {
 }
 
 const displayTracks = (tracks) => {
-    let html = `<h2>My likes</h2>`;
+    let html = "";
 
     html += `<div id='tracks'>`;
 

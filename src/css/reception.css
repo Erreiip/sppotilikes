@@ -2,12 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding-top: 15px;
 }
 
 #tracks {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding-top: 15px;
 }
 
 .track iframe {
